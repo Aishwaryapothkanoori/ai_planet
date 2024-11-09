@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items:flex-start;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 90px;
+    margin-right: 10px;
+  }
+  
+  .upload-btn {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .upload-btn span {
+    margin-right: 5px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #eaeaea;
+  }
+ 
